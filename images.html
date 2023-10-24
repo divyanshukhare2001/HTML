@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/17774928/pexels-photo-17774928/free-photo-of-laptop-and-water-with-lemon.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" width="200px" alt="no img">
+
+    <!-- <picture>
+        <source media="(max-width:800px)" srcset="https://images.pexels.com/photos/18401184/pexels-photo-18401184/free-photo-of-a-man-standing-head-to-head-with-a-horse.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" />
+        <source media="(min-width:820px) and (max-width:1000px)" srcset="https://images.pexels.com/photos/17726839/pexels-photo-17726839/free-photo-of-two-cable-cars-in-the-fog.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" />
+        <img src="https://images.pexels.com/photos/18047275/pexels-photo-18047275/free-photo-of-hands-with-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="no img">
+    </picture> -->
+
+
+<img src="./pexels-photo-11107710.jpeg" usemap="#image_map">
+<map name="image_map">
+  <area onclick="one()" alt="" title="" href="" coords="264,97,399,193" shape="rect">
+  <area onclick="two()" alt="" title="" href="" coords="10,263,97,352" shape="rect">
+</map>
+
+<script>
+    function one(){
+        console.log(alert(`you clicked on first`));
+    }
+    function two(){
+       console.log(alert(`you clicked on second`));
+    }
+    
+</script>
+
+</body>
+</html>
